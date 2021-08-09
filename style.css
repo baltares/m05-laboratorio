@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 8px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.id-class,
+div.price-class,
+div.count-class,
+div.premium-class {
+    width: 12%;
+}
+
+div.name-class {
+    width: 30%;
+    font-weight: bold;
+    color: rgb(37, 85, 100);
+}
